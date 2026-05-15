@@ -38,7 +38,7 @@ export const links = [
 ];
 
 export const heroContent = {
-    title: "Welcome to My Portfolio",
+    title: "Welcome to My Website",
     main: "Always creating Beautiful & Functional Web Experiences",
     description:
         "I'm Royal, Full Stack Developer & this is my corner of the web!",
