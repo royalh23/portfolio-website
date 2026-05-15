@@ -41,7 +41,7 @@ export const heroContent = {
     title: "Welcome to My Portfolio",
     main: "Always creating Beautiful & Functional Web Experiences",
     description:
-        "I'm Royal, Full Stack JavaScript Developer & this is my corner of the web!",
+        "I'm Royal, Full Stack Developer & this is my corner of the web!",
 };
 
 export const projects = [];
