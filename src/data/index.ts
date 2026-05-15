@@ -29,6 +29,10 @@ import css from "../assets/css.svg";
 // import captiwate from "../assets/captiwate.svg";
 // import futurebox from "../assets/futurebox.svg";
 // import code from "../assets/code.svg";
+import node from "../assets/nodejs.svg";
+import sqlite from "../assets/sqlite.svg";
+
+import whatsappbot from "../assets/whatsapp-bot.png";
 
 export const links = [
     { name: "Projects", href: "#projects" },
@@ -44,7 +48,24 @@ export const heroContent = {
         "I'm Royal, Full Stack Developer & this is my corner of the web!",
 };
 
-export const projects = [];
+export const projects = [
+    {
+        img: whatsappbot,
+        title: "WhatsApp Automation Bot",
+        description: "An automated monitoring system built with Node.js and TypeScript. It utilizes the Baileys " + 
+        "library for real-time WhatsApp connectivity and the Twilio API for immediate telephonic alerts based on keyword " +
+        "triggers and identity filtering. SQLite ensures efficient local data persistence for session management and cooldown " +
+        "logic, while the system is architected for 24/7 VPS deployment to ensure reliable, high-availability monitoring of " +
+        "critical communication channels.",
+        codebaseUrl: "https://github.com/royalh23/wp-bot-baileys",
+        techStack: [
+            { icon: node, name: "Node.js" },
+            { icon: ts, name: "TypeScript" },
+            { icon: js, name: "JavaScript" },
+            { icon: sqlite, name: "SQLite" },
+        ],
+    },
+];
 
 export const aboutMe = [
     "I constantly try to improve my tech stack.",
@@ -65,6 +86,7 @@ export const techStack = [
     { icon: next, name: "Next.js" },
     { icon: ts, name: "Typescript" },
     { icon: js, name: "JavaScript" },
+    { icon: sqlite, name: "SQLite" },
 ];
 
 export const socials = [
