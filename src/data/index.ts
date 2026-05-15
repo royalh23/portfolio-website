@@ -68,9 +68,10 @@ export const projects = [
 ];
 
 export const aboutMe = [
-    "I constantly try to improve my tech stack.",
-    "Open communication & collaboration is my priority.",
-    "Always open to new opportunities and challenges.",
+    "I am a Computer Science student based in Budapest, Hungary, dedicated to mastering software architecture and modern " +
+    "development patterns.",
+    "My current work focuses on building full stack web apps and constantly improving myself in this field.",
+    "I am always open to new opportunities and challenges.",
 ];
 
 export const experience = [];
