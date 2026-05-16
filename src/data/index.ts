@@ -34,6 +34,8 @@ import sqlite from "../assets/sqlite.svg";
 
 import whatsappbot from "../assets/whatsapp-bot.png";
 
+import crosstech from "../assets/crosstech.svg";
+
 export const links = [
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
@@ -74,7 +76,16 @@ export const aboutMe = [
     "I am always open to new opportunities and challenges.",
 ];
 
-export const experience = [];
+export const experience = [
+    {
+        title: "Software Developer",
+        description: "Worked on scalable web applications and internal tools, focusing on frontend development, " +
+        "API integration, and responsive UI implementation. Participated in feature development, debugging, and performance " +
+        "optimization using modern JavaScript technologies.",
+        img: crosstech,
+        imgClassName: "experience-image",
+    },
+];
 
 export const techStack = [
     { icon: scss, name: "SCSS" },

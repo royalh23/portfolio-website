@@ -32,7 +32,7 @@
         position: relative;
         background-color: $secondary_background_color;
         border-radius: $border_radius;
-        height: 170px;
+        height: 200px;
         border: 1px solid $main_border_color;
         width: calc(50% - 10px - 2px);
         display: flex;
@@ -62,25 +62,11 @@
             pointer-events: none;
         }
 
-        .experience-photo-1 {
-            top: 10px;
-            right: 10px;
-            height: 80px;
-            opacity: 0.8;
-        }
-
-        .experience-photo-2 {
+        .experience-image {
             top: 10px;
             right: 10px;
             height: 100px;
-            opacity: 0.6;
-        }
-
-        .experience-photo-3 {
-            top: 50%;
-            transform: translateY(-50%);
-            right: 0px;
-            height: 100%;
+            opacity: 0.8;
         }
     }
     @media (max-width: $md) {
