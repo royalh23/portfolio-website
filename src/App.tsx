@@ -11,9 +11,9 @@ function App() {
         <main>
             <Header />
             <Hero />
+            <About />
             <Projects />
             <Experience />
-            <About />
             <Contact />
             <Footer />
         </main>
