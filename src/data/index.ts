@@ -8,10 +8,6 @@ import tw from "../assets/tail.svg";
 // import vite from "../assets/vite.svg";
 import three from "../assets/three.svg";
 import scss from "../assets/scss.svg";
-// import attendium from "../assets/attendium.png";
-// import luminelle from "../assets/luminelle.png";
-// import videocall from "../assets/videocall.webp";
-// import voltfinder from "../assets/voltfinder.png";
 // import firebase from "../assets/firebase.svg";
 // import hostinger from "../assets/hostinger.svg";
 // import wordpress from "../assets/wordpress.svg";
@@ -26,14 +22,10 @@ import git from "../assets/git.svg";
 import redux from "../assets/redux.svg";
 import html from "../assets/html.svg";
 import css from "../assets/css.svg";
-// import captiwate from "../assets/captiwate.svg";
-// import futurebox from "../assets/futurebox.svg";
 // import code from "../assets/code.svg";
 import node from "../assets/nodejs.svg";
 import sqlite from "../assets/sqlite.svg";
-
 import whatsappbot from "../assets/whatsapp-bot.png";
-
 import crosstech from "../assets/crosstech.svg";
 
 export const links = [
