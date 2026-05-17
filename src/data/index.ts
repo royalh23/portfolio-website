@@ -37,9 +37,9 @@ import whatsappbot from "../assets/whatsapp-bot.png";
 import crosstech from "../assets/crosstech.svg";
 
 export const links = [
+    { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
-    { name: "About", href: "#about" },
     { name: "Contact", href: "#contact" },
 ];
 
